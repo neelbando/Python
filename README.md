@@ -7,3 +7,4 @@
 #5 --> stock buy & sell - (single time)
 #6 --> stock buy & sell - (multiple time)
 #7 --> find all anagram in a string
+#8 --> container with maximum water
