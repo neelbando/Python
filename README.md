@@ -8,3 +8,4 @@
 #6 --> stock buy & sell - (multiple time)
 #7 --> find all anagram in a string
 #8 --> container with maximum water
+#9 --> insertion sort
