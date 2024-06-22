@@ -11,3 +11,6 @@
 #9    --> insertion sort
 #10   --> quick sort
 #11   --> merge sort
+#12   --> check if valid parenthesis
+#13   --> longest valid parenthesis
+#14   --> flatten nested list using recursion
