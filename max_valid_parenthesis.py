@@ -1,3 +1,34 @@
+def longest_valid_parenthesis(str):
+    open_braket_count = 0     
+    close_braket_count = 0 
+    max_len = 0
+    
+    for i in str:
+        if i == '(':
+            open_braket_count = open_braket_count + 1
+        if i == ')':
+            close_braket_count = close_braket_count + 1   
+            
+        
+        if open_braket_count == close_braket_count:
+            length = open_braket_count * 2
+            max_len = max(max_len,length)
+        
+        if open_braket_count < close_braket_count:
+            open_braket_count = 0
+            close_braket_count = 0
+            
+    return max_len
+    
+strx = '())(())(((())))'
+print(longest_valid_parenthesis(strx))
+
+
+
+
+
+
+#******************************************************************************
 strx = '()()()()()(()()()()(()()()()()()()'
 stk = []
 
